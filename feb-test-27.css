@@ -1,0 +1,73 @@
+
+body > #container{        
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    margin: 30px;
+    }
+        
+#container>div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: -30px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 200px 200px 200px 200px;
+    padding: 30px;
+    grid-template-areas:
+    "a a a a b b b b b b c c"
+    "a a a a d d d d d d c c"
+    "e e e e e e f f g g g g"
+    "h h h h h h h h g g g g";
+    }
+
+.one {
+    background-color: rgb(201, 33, 33);
+    grid-area: a;
+    padding-top: 25%;
+    }
+
+.two {
+    background-color: rgb(243, 243, 11);
+    grid-area: b;
+    padding-top: 2px}
+
+.three {
+    background-color: rgb(194, 3, 114);
+    grid-area: c;
+    padding-top: 45%;
+    }
+
+.four {
+    background-color: rgb(68, 136, 68);
+    grid-area: d;
+    }
+
+.five {
+    background-color: rgb(241, 141, 26);
+    grid-area: e;
+    }
+
+.six {
+    background-color: rgb(3, 176, 199);
+    grid-area: f;
+    }
+
+.seven {
+    background-color: rgb(70, 47, 114);
+    grid-area: g;
+    padding-top:25%;
+    }
+
+.eight {
+    background-color: rgb(240, 154, 105);
+    grid-area: h;
+    }
+
+h2 {
+    font-size: 35px;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    }  
